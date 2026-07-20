@@ -82,3 +82,11 @@ const account=new BankAccount(10000);
 account.deposite(5000);
 account.withdraw(13000);
 console.log(account.getBalance());
+
+
+//print the value
+// Write a Java program that prints 'Hello, World!' to the console.
+
+
+let string = "Hello";
+console.log(string +", World!");

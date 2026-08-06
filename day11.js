@@ -91,4 +91,19 @@ console.log(seniorEmployee);
 const resText ="TYPESCRIPT";
 const afterRevText=resText.split("").reverse().join().toLowerCase();
 console.log(afterRevText);
+//timed out 3 secs program
+console.log("start");
+setTimeout(() => {
+    console.log("inside timed out")
+}, 3000);
+console.log("End");
 
+//callback
+function greet(name , callback){
+console.log("Hello" , + name);
+callback();
+}
+function end(){
+    console.log("good boy");
+}
+greet("Palani", end);
